@@ -1,0 +1,844 @@
+[
+    [
+        {
+            "id": "40",
+            "libelle": "Aerdala",
+            "slug": "aerdala",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "35",
+            "libelle": "Akwadala",
+            "slug": "akwadala",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "56",
+            "libelle": "Antre de Crocabulia",
+            "slug": "antre-de-crocabulia",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "125",
+            "libelle": "Antre du Dragon Cochon",
+            "slug": "antre-du-dragon-cochon",
+            "zone_libelle": "Labyrinthe du Dragon Cochon",
+            "zone_slug": "labyrinthe-du-dragon-cochon"
+        },
+        {
+            "id": "106",
+            "libelle": "Arbre de Moon",
+            "slug": "arbre-de-moon",
+            "zone_libelle": "Île de Moon",
+            "zone_slug": "ile-de-moon"
+        },
+        {
+            "id": "24",
+            "libelle": "Arche d'Otomaï",
+            "slug": "arche-d-otomai",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "44",
+            "libelle": "Atelier du Tanukouï San",
+            "slug": "atelier-du-tanukoui-san",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "3",
+            "libelle": "Baie de Cania",
+            "slug": "baie-de-cania",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "39",
+            "libelle": "Bambusaie de Damadrya",
+            "slug": "bambusaie-de-damadrya",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "15",
+            "libelle": "Bibliothèque du Maître corbac",
+            "slug": "bibliotheque-du-maitre-corbac",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "9",
+            "libelle": "Bois de Litneg",
+            "slug": "bois-de-litneg",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "69",
+            "libelle": "Bord de la forêt maléfique",
+            "slug": "bord-de-la-foret-malefique",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "115",
+            "libelle": "Bordure de Brakmar",
+            "slug": "bordure-de-brakmar",
+            "zone_libelle": "Brakmar",
+            "zone_slug": "brakmar"
+        },
+        {
+            "id": "83",
+            "libelle": "Calanques d'Astrub",
+            "slug": "calanques-d-astrub",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "31",
+            "libelle": "Cale de l'arche d'otomaï",
+            "slug": "cale-de-l-arche-d-otomai",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "32",
+            "libelle": "Canopée du Kimbo",
+            "slug": "canopee-du-kimbo",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "97",
+            "libelle": "Canyon sauvage",
+            "slug": "canyon-sauvage",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "108",
+            "libelle": "Caverne des Fungus",
+            "slug": "caverne-des-fungus",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "100",
+            "libelle": "Caverne du Koulosse",
+            "slug": "caverne-du-koulosse",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "122",
+            "libelle": "Centre du labyrinthe du Minotoror",
+            "slug": "centre-du-labyrinthe-du-minotoror",
+            "zone_libelle": "Île du Minotoror",
+            "zone_slug": "ile-du-minotoror"
+        },
+        {
+            "id": "74",
+            "libelle": "Champ des Ingalsse",
+            "slug": "champ-des-ingalsse",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "8",
+            "libelle": "Champs de Cania",
+            "slug": "champs-de-cania",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "90",
+            "libelle": "Château du Wa Wabbit",
+            "slug": "chateau-du-wa-wabbit",
+            "zone_libelle": "Île des Wabbits",
+            "zone_slug": "ile-des-wabbits"
+        },
+        {
+            "id": "82",
+            "libelle": "Château Ensablé",
+            "slug": "chateau-ensable",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "102",
+            "libelle": "Chemin du Crâne",
+            "slug": "chemin-du-crane",
+            "zone_libelle": "Île de Moon",
+            "zone_slug": "ile-de-moon"
+        },
+        {
+            "id": "128",
+            "libelle": "Cimetière d'Amakna",
+            "slug": "cimetiere-d-amakna",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "81",
+            "libelle": "Cimetière d'Astrub",
+            "slug": "cimetiere-d-astrub",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "87",
+            "libelle": "Cimetière de Grobe",
+            "slug": "cimetiere-de-grobe",
+            "zone_libelle": "Île de Grobe",
+            "zone_slug": "ile-de-grobe"
+        },
+        {
+            "id": "114",
+            "libelle": "Cimetière des Torturés",
+            "slug": "cimetiere-des-tortures",
+            "zone_libelle": "Brakmar",
+            "zone_slug": "brakmar"
+        },
+        {
+            "id": "94",
+            "libelle": "Cimetière primitif",
+            "slug": "cimetiere-primitif",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "84",
+            "libelle": "Cité d'Astrub",
+            "slug": "cite-dastrub",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "50",
+            "libelle": "Clairière de Brouce Boulgoure",
+            "slug": "clairiere-de-brouce-boulgoure",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "21",
+            "libelle": "Clairière du Chêne Mou",
+            "slug": "clairiere-du-chene-mou",
+            "zone_libelle": "Forêt des Abraknydes",
+            "zone_slug": "foret-des-abraknydes"
+        },
+        {
+            "id": "7",
+            "libelle": "Clos des Blops",
+            "slug": "clos-des-blops",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "48",
+            "libelle": "Coin des Bouftous",
+            "slug": "coin-des-bouftous",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "79",
+            "libelle": "Cour du Bouftou Royal",
+            "slug": "cour-du-bouftou-royal",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "67",
+            "libelle": "Cryptes du cimetière",
+            "slug": "cryptes-du-cimetiere",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "2",
+            "libelle": "Dents de Pierre",
+            "slug": "dents-de-pierre",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "109",
+            "libelle": "Désolation de Sidimote",
+            "slug": "desolation-de-sidimote",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "42",
+            "libelle": "Dojo du Vent",
+            "slug": "dojo-du-vent",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "20",
+            "libelle": "Domaine Ancestral",
+            "slug": "domaine-ancestral",
+            "zone_libelle": "Forêt des Abraknydes",
+            "zone_slug": "foret-des-abraknydes"
+        },
+        {
+            "id": "107",
+            "libelle": "Domaine des Fungus",
+            "slug": "domaine-des-fungus",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "49",
+            "libelle": "Donjon des Bworks",
+            "slug": "donjon-des-bworks",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "73",
+            "libelle": "Donjon des Larves",
+            "slug": "donjon-des-larves",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "70",
+            "libelle": "Donjon des Rats du Château d'Amakna",
+            "slug": "donjon-des-rats-du-chateau-d-amakna",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "72",
+            "libelle": "Donjon des Scarafeuilles",
+            "slug": "donjon-des-scarafeuilles",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "76",
+            "libelle": "Égouts d'Astrub",
+            "slug": "egouts-d-astrub",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "116",
+            "libelle": "Entrailles de Brakmar",
+            "slug": "entrailles-de-brakmar",
+            "zone_libelle": "Brakmar",
+            "zone_slug": "brakmar"
+        },
+        {
+            "id": "61",
+            "libelle": "Épreuve de Draegnerys",
+            "slug": "epreuve-de-draegnerys",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "41",
+            "libelle": "Fabrique de foux d'artifice",
+            "slug": "fabrique-de-foux-d-artifice",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "37",
+            "libelle": "Feudala",
+            "slug": "feudala",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "68",
+            "libelle": "Forêt d'Amakna",
+            "slug": "foret-d-amakna",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "99",
+            "libelle": "Forêt de Kaliptus",
+            "slug": "foret-de-kaliptus",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "104",
+            "libelle": "Forêt des masques",
+            "slug": "foret-des-masques",
+            "zone_libelle": "Île de Moon",
+            "zone_slug": "ile-de-moon"
+        },
+        {
+            "id": "45",
+            "libelle": "Forêt maléfique",
+            "slug": "foret-malefique",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "18",
+            "libelle": "Forêt Sombre",
+            "slug": "foret-sombre",
+            "zone_libelle": "Forêt des Abraknydes",
+            "zone_slug": "foret-des-abraknydes"
+        },
+        {
+            "id": "65",
+            "libelle": "Gelaxième dimension",
+            "slug": "gelaxieme-dimension",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "33",
+            "libelle": "Goulet du Rasboul",
+            "slug": "goulet-du-rasboul",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "85",
+            "libelle": "Grange du Tournesol Affamé",
+            "slug": "grange-du-tournesol-affame",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "127",
+            "libelle": "Grotte du Bworker",
+            "slug": "grotte-du-bworker",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "28",
+            "libelle": "Grotte Hesque",
+            "slug": "grotte-hesque",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "112",
+            "libelle": "Hauts des hurlements",
+            "slug": "hauts-des-hurlements",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "88",
+            "libelle": "Île de la Cawotte",
+            "slug": "ile-de-la-cawotte",
+            "zone_libelle": "Île des Wabbits",
+            "zone_slug": "ile-des-wabbits"
+        },
+        {
+            "id": "121",
+            "libelle": "Île du Minotoror",
+            "slug": "ile-du-minotoror",
+            "zone_libelle": "Île du Minotoror",
+            "zone_slug": "ile-du-minotoror"
+        },
+        {
+            "id": "89",
+            "libelle": "Îlot de la Couronne",
+            "slug": "ilot-de-la-couronne",
+            "zone_libelle": "Île des Wabbits",
+            "zone_slug": "ile-des-wabbits"
+        },
+        {
+            "id": "92",
+            "libelle": "îlot des Tombeaux",
+            "slug": "ilot-des-tombeaux",
+            "zone_libelle": "Île des Wabbits",
+            "zone_slug": "ile-des-wabbits"
+        },
+        {
+            "id": "103",
+            "libelle": "Jungle Interdite",
+            "slug": "jungle-interdite",
+            "zone_libelle": "Île de Moon",
+            "zone_slug": "ile-de-moon"
+        },
+        {
+            "id": "22",
+            "libelle": "Jungle Obscure",
+            "slug": "jungle-obscure",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "110",
+            "libelle": "Laboratoire de Brumen Tinctorias",
+            "slug": "laboratoire-de-brumen-tinctorias",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "34",
+            "libelle": "Laboratoire du Tynril",
+            "slug": "laboratoire-du-tynril",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "124",
+            "libelle": "Labyrinthe du Dragon Cochon",
+            "slug": "labyrinthe-du-dragon-cochon",
+            "zone_libelle": "Labyrinthe du Dragon Cochon",
+            "zone_slug": "labyrinthe-du-dragon-cochon"
+        },
+        {
+            "id": "120",
+            "libelle": "Labyrinthe du Minotoror",
+            "slug": "labyrinthe-du-minotoror",
+            "zone_libelle": "Île du Minotoror",
+            "zone_slug": "ile-du-minotoror"
+        },
+        {
+            "id": "5",
+            "libelle": "Lac de Cania",
+            "slug": "lac-de-cania",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "95",
+            "libelle": "Lacs enchantés",
+            "slug": "lacs-enchantes",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "93",
+            "libelle": "Marécages nauséabonds",
+            "slug": "marecages-nauseabonds",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "16",
+            "libelle": "Massif de Cania",
+            "slug": "massif-de-cania",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "86",
+            "libelle": "Mont des Tombeaux",
+            "slug": "mont-des-tombeaux",
+            "zone_libelle": "Île de Grobe",
+            "zone_slug": "ile-de-grobe"
+        },
+        {
+            "id": "52",
+            "libelle": "Montagne basse des Craqueleurs",
+            "slug": "montagne-basse-des-craqueleurs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "54",
+            "libelle": "Montagne des Craqueleurs",
+            "slug": "montagne-des-craqueleurs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "19",
+            "libelle": "Orée de la forêt des Abraknydes",
+            "slug": "oree-de-la-foret-des-abraknydes",
+            "zone_libelle": "Forêt des Abraknydes",
+            "zone_slug": "foret-des-abraknydes"
+        },
+        {
+            "id": "46",
+            "libelle": "Passage vers Brakmar",
+            "slug": "passage-vers-brakmar",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "10",
+            "libelle": "Pénates du Corbac",
+            "slug": "penates-du-corbac",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "64",
+            "libelle": "Péninsule des gelées",
+            "slug": "peninsule-des-gelees",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "6",
+            "libelle": "Pics de Cania",
+            "slug": "pics-de-cania",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "55",
+            "libelle": "Pitons Rocheux des Craqueleurs",
+            "slug": "pitons-rocheux-des-craqueleurs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "27",
+            "libelle": "Plage de Corail",
+            "slug": "plage-de-corail",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "105",
+            "libelle": "Plage de la Tortue",
+            "slug": "plage-de-la-tortue",
+            "zone_libelle": "Île de Moon",
+            "zone_slug": "ile-de-moon"
+        },
+        {
+            "id": "4",
+            "libelle": "Plaine des Porkass",
+            "slug": "plaine-des-porkass",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "63",
+            "libelle": "Plaine des Scarafeuilles",
+            "slug": "plaine-des-scarafeuilles",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "25",
+            "libelle": "Plaines herbeuses",
+            "slug": "plaines-herbeuses",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "11",
+            "libelle": "Plaines Rocheuses",
+            "slug": "plaines-rocheuses",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "36",
+            "libelle": "Plantala",
+            "slug": "plantala",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "66",
+            "libelle": "Port de Madrestam",
+            "slug": "port-de-madrestam",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "59",
+            "libelle": "Presqu'île des Dragoeufs",
+            "slug": "presqu-ile-des-dragoeufs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "101",
+            "libelle": "Repaire de Skeunk",
+            "slug": "repaire-de-skeunk",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "62",
+            "libelle": "Repaire du Kharnozor",
+            "slug": "repaire-du-kharnozor",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "118",
+            "libelle": "Rivage sufokien",
+            "slug": "rivage-sufokien",
+            "zone_libelle": "Baie de Sufokia",
+            "zone_slug": "baie-de-sufokia"
+        },
+        {
+            "id": "126",
+            "libelle": "Rives iridescentes",
+            "slug": "rives-iridescentes",
+            "zone_libelle": "Bonta",
+            "zone_slug": "bonta"
+        },
+        {
+            "id": "12",
+            "libelle": "Routes Rocailleuses",
+            "slug": "routes-rocailleuses",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "57",
+            "libelle": "Sanctuaire des Dragoeufs",
+            "slug": "sanctuaire-des-dragoeufs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "77",
+            "libelle": "Souterrains d'Astrub",
+            "slug": "souterrains-d-astrub",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "91",
+            "libelle": "Souterrains des Wabbits",
+            "slug": "souterrains-des-wabbits",
+            "zone_libelle": "Île des Wabbits",
+            "zone_slug": "ile-des-wabbits"
+        },
+        {
+            "id": "51",
+            "libelle": "Souterrains du Château d'Amakna",
+            "slug": "souterrains-du-chateau-d-amakna",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "119",
+            "libelle": "Sufokia",
+            "slug": "sufokia",
+            "zone_libelle": "Baie de Sufokia",
+            "zone_slug": "baie-de-sufokia"
+        },
+        {
+            "id": "78",
+            "libelle": "Tainéla",
+            "slug": "tainela",
+            "zone_libelle": "Astrub",
+            "zone_slug": "astrub"
+        },
+        {
+            "id": "111",
+            "libelle": "Tanière du Meulou",
+            "slug": "taniere-du-meulou",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "113",
+            "libelle": "Temple du Grand Ougah",
+            "slug": "temple-du-grand-ougah",
+            "zone_libelle": "Landes de Sidimote",
+            "zone_slug": "landes-de-sidimote"
+        },
+        {
+            "id": "38",
+            "libelle": "Terrdala",
+            "slug": "terrdala",
+            "zone_libelle": "Île de Pandala",
+            "zone_slug": "ile-de-pandala"
+        },
+        {
+            "id": "47",
+            "libelle": "Territoire des Bandits",
+            "slug": "territoire-des-bandits",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "96",
+            "libelle": "Territoire des Dragodindes Sauvages",
+            "slug": "territoire-des-dragodindes-sauvages",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "53",
+            "libelle": "Territoire des Porcos",
+            "slug": "territoire-des-porcos",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "75",
+            "libelle": "Tofulailler royal",
+            "slug": "tofulailler-royal",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "26",
+            "libelle": "Tourbière sans fond",
+            "slug": "tourbiere-sans-fond",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "23",
+            "libelle": "Tronc de l'arbre Hakam",
+            "slug": "tronc-de-l-arbre-hakam",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "98",
+            "libelle": "Vallée de la Morh'kitu",
+            "slug": "vallee-de-la-morh-kitu",
+            "zone_libelle": "Montagnes des Koalaks",
+            "zone_slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "29",
+            "libelle": "Village de la Canopée",
+            "slug": "village-de-la-canopee",
+            "zone_libelle": "Île d'Otomaï",
+            "zone_slug": "ile-d-otomai"
+        },
+        {
+            "id": "1",
+            "libelle": "Village des dopeuls",
+            "slug": "village-des-dopeuls",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "13",
+            "libelle": "Village des Dopeuls",
+            "slug": "village-des-dopeuls",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        },
+        {
+            "id": "58",
+            "libelle": "Village des Dragoeufs",
+            "slug": "village-des-dragoeufs",
+            "zone_libelle": "Amakna",
+            "zone_slug": "amakna"
+        },
+        {
+            "id": "14",
+            "libelle": "Volière de la Haute Truche",
+            "slug": "voliere-de-la-haute-truche",
+            "zone_libelle": "Plaines de Cania",
+            "zone_slug": "plaines-de-cania"
+        }
+    ]
+]

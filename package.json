@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.16.0"
+  },
+  "name": "metamob_xs",
+  "version": "1.8.6",
+  "description": "Metamob api use",
+  "main": "main.js",
+  "typings": "main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Metamob",
+    "API",
+    "Dofus",
+    "JS"
+  ],
+  "author": "Ix-xs",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ix-xs/metamob_xs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ix-xs/metamob_xs/issues"
+  },
+  "homepage": "https://github.com/Ix-xs/metamob_xs#readme"
+}

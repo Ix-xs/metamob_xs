@@ -1,0 +1,84 @@
+[
+    [
+        {
+            "id": "5",
+            "libelle": "Amakna",
+            "slug": "amakna"
+        },
+        {
+            "id": "6",
+            "libelle": "Astrub",
+            "slug": "astrub"
+        },
+        {
+            "id": "13",
+            "libelle": "Baie de Sufokia",
+            "slug": "baie-de-sufokia"
+        },
+        {
+            "id": "16",
+            "libelle": "Bonta",
+            "slug": "bonta"
+        },
+        {
+            "id": "12",
+            "libelle": "Brakmar",
+            "slug": "brakmar"
+        },
+        {
+            "id": "2",
+            "libelle": "Forêt des Abraknydes",
+            "slug": "foret-des-abraknydes"
+        },
+        {
+            "id": "3",
+            "libelle": "Île d'Otomaï",
+            "slug": "ile-d-otomai"
+        },
+        {
+            "id": "7",
+            "libelle": "Île de Grobe",
+            "slug": "ile-de-grobe"
+        },
+        {
+            "id": "10",
+            "libelle": "Île de Moon",
+            "slug": "ile-de-moon"
+        },
+        {
+            "id": "4",
+            "libelle": "Île de Pandala",
+            "slug": "ile-de-pandala"
+        },
+        {
+            "id": "8",
+            "libelle": "Île des Wabbits",
+            "slug": "ile-des-wabbits"
+        },
+        {
+            "id": "14",
+            "libelle": "Île du Minotoror",
+            "slug": "ile-du-minotoror"
+        },
+        {
+            "id": "15",
+            "libelle": "Labyrinthe du Dragon Cochon",
+            "slug": "labyrinthe-du-dragon-cochon"
+        },
+        {
+            "id": "11",
+            "libelle": "Landes de Sidimote",
+            "slug": "landes-de-sidimote"
+        },
+        {
+            "id": "9",
+            "libelle": "Montagnes des Koalaks",
+            "slug": "montagnes-des-koalaks"
+        },
+        {
+            "id": "1",
+            "libelle": "Plaines de Cania",
+            "slug": "plaines-de-cania"
+        }
+    ]
+]
