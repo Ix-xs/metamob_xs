@@ -1,7 +1,7 @@
 <div align=center>
 <h1>
 metamob_xs<br>
-<img src=https://img.shields.io/badge/JavaScript-100%25-yellow?style=plastic>
+<img alt="langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ix-xs&exclude_repo=ytb_xs,Oaky,twitch_xs&langs_count=5&custom_title=Languages&title_color=2986cc&text_color=2986cc&icon_color=2986cc&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10">
 <br>
 </h1>
 <sup>#Not dev</sup> <sup>#Unofficial</sup> <sup>#Dofus</sup> <sup>#Metamob</sup>
