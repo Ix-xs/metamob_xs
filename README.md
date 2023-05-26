@@ -1,9 +1,7 @@
 <div align=center>
-<h1>
-metamob_xs<br>
+<span style="font-size:30px;">metamob_xs</span><br>
 <img alt="langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ix-xs&exclude_repo=ytb_xs,Oaky,twitch_xs&langs_count=5&custom_title=Languages&title_color=2986cc&text_color=2986cc&icon_color=2986cc&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10">
 <br>
-</h1>
 <sup>#Not dev</sup> <sup>#Unofficial</sup> <sup>#Dofus</sup> <sup>#Metamob</sup>
 <br>
 </div>
@@ -50,15 +48,15 @@ const client = new metamob_xs({ apiKey:"votre_clé_api" });
 
 Méthode | options | Description |
 | --- | --- | --- |
-| `GET.user()` | `pseudo`:string | Récupère les informations d'un utilisateur. Non sensible à la casse. |
-| `GET.userMonsters()` | `pseudo`:string<br>params?:{<br>`type?`:string,<br>`monstre?`:string,<br>`etape?`:number,<br>`quantite?`:string,<br>`etat?`:string<br>} | Récupère les monstres d'un utilisateur. Le nom d'utilisateur n'est pas sensible à la casse. |
-| `GET.monsters()` | params?:{<br>`monstre?`:string<br>`etape?`:number<br>`type?`:string<br>} | Récupère les monstres. |
-| `GET.serveurs()` | `serveur?`:string | Récupère les serveurs. |
-| `GET.kralamoures()` | params?:{<br>`serveur?`:string<br>`date_debut?`:{<br>`jour`:string,<br>`mois`:string,<br>`année?`:string<br>}<br>`date_fin?`:{<br>`jour`:string,<br>`mois`:string,<br>`année?`:string<br>}<br>} | Récupère les kralamoures. |
-| `GET.zones()` | `zone?`:string | Récupère les zones. |
-| `GET.souszones()` | `souszone?`:string | Récupère les sous-zones. |
-| `PUT.userMonsters()` | `pseudo`:string<br>`clé_unique`:string<br>body:Array<{<br>`monstre`:string<br>`quantite?`:string<br>`etat?`:string<br>}> | Met à jour les informations de monstre d'un compte utilisateur.<br>Le champ quantite indique l'opération à effectuer sur la quantité:<br>• s'il s'agit d'un nombre seul (par exemple "3"), alors la quantité sera forcée à cette valeur, quelque soit la valeur actuelle.<br>• Si la quantité est une chaîne de caractère commençant par un symbole "+", alors la quantité du monstre sera incrémentée de la valeur indiquée.<br>• S'il s'agit d'une chaîne de caractère commençant par un symbole "-", alors la quantité du monstre sera décrémentée de la valeur indiquée. |
-| `PUT.resetUserMonsters()` | `pseudo`:string<br>`clé_unique`:string | Réinitialise les monstres sur le compte. Cela signifie que toutes les informations relatives aux monstres seront supprimées !<br>Les monstres seront mis à l'état aucun (ni recherché ni proposé), avec une quantité nulle (0). |
+| `GET.user()` | `pseudo`:string; | Récupère les informations d'un utilisateur. Non sensible à la casse. |
+| `GET.userMonsters()` | `pseudo`:string;<br>{<br>`type?`:string;<br>`monstre?`:string;<br>`etape?`:string;<br>`quantite?`:string;<br>`etat?`:string;<br>} | Récupère les monstres d'un utilisateur. Le nom d'utilisateur n'est pas sensible à la casse. |
+| `GET.monsters()` | {<br>`monstre?`:string;<br>`etape?`:string;<br>`type?`:string;<br>} | Récupère les monstres. |
+| `GET.serveurs()` | `serveur?`:string; | Récupère les serveurs. |
+| `GET.kralamoures()` | {<br>`serveur?`:string;<br>`date_debut?`:string;<br>`date_fin?`:string;<br>} | Récupère les kralamoures. |
+| `GET.zones()` | `zone?`:string; | Récupère les zones. |
+| `GET.souszones()` | `souszone?`:string; | Récupère les sous-zones. |
+| `PUT.userMonsters()` | `pseudo`:string<br>`clé_unique`:string<br>`body`:{<br>`monstre`:string;<br>`quantite?`:string;<br>`etat?`:string;<br>}[] | Met à jour les informations de monstre d'un compte utilisateur.<br>Le champ quantite indique l'opération à effectuer sur la quantité:<br>• s'il s'agit d'un nombre seul (par exemple "3"), alors la quantité sera forcée à cette valeur, quelque soit la valeur actuelle.<br>• Si la quantité est une chaîne de caractère commençant par un symbole "+", alors la quantité du monstre sera incrémentée de la valeur indiquée.<br>• S'il s'agit d'une chaîne de caractère commençant par un symbole "-", alors la quantité du monstre sera décrémentée de la valeur indiquée. |
+| `PUT.resetUserMonsters()` | `pseudo`:string;<br>`clé_unique`:string; | Réinitialise les monstres sur le compte. Cela signifie que toutes les informations relatives aux monstres seront supprimées !<br>Les monstres seront mis à l'état aucun (ni recherché ni proposé), avec une quantité nulle (0). |
 
 <br>
 <h3>3. Exemples</h3>
@@ -66,38 +64,54 @@ Méthode | options | Description |
 
 
 ```js
-const { metamob_xs } = require("metamob.api");
+const { metamob_xs } = require("metamob_xs");
 
 const client = new metamob_xs({ apiKey:"votre_clé_api" });
 
-client.GET.user("popop").then(console.log); // Renvoi les informations de l'utilisateur.
+// Renvoie les informations de l'utilisateur
+client.GET.user("popop").then(console.log);
 
-client.GET.userMonsters("popop", { etat:"propose", quantite:">1" }).then(console.log); // Renvoi les monstres "proposés" et dont l'utilisateur possède en + de 1 exemplaire.
-client.GET.userMonsters("popop", { etape:"20", type:"archimonstre" }).then(console.log); // Renvoi une liste des "archimonstres" à l'étape 20 de l'utilisateur.
+// Renvoie les monstres "proposés" dont l'utilisateur possède en + de 1 exemplaire
+client.GET.userMonsters("popop", { etat:"propose", quantite:">1" }).then(console.log);
+ // Renvoie les monstres de l'utilisateur à l'étape 20
+client.GET.userMonsters("popop", { etape:"20" }).then(console.log);
 
-client.GET.monsters().then(console.log); // Renvoi une liste de tout les monstres.
-client.GET.monsters({ type:"archimonstre" }).then(console.log); // Renvoi une liste de tout les archimonstres.
+// Renvoie la liste de tous les monstres
+client.GET.monsters().then(console.log);
+// Renvoie la liste de tous les archimonstres
+client.GET.monsters({ type:"archimonstre" }).then(console.log);
 
-client.GET.serveurs().then(console.log); // Renvoi une liste de tout les serveurs.
-client.GET.serveurs("Tylezia").then(console.log); // Renvoi les informations sur le serveur "Tylezia".
+// Renvoie la liste de tous les serveurs
+client.GET.serveurs().then(console.log);
+// Renvoie les informations sur le serveur "Tylezia"
+client.GET.serveurs("Tylezia").then(console.log);
 
-client.GET.kralamoures().then(console.log); // Renvoi une liste des ouvertures prévues entre la date du jour et 1 mois plus tard.
-client.GET.kralamoures({ serveur:"Tylezia", date_fin:{ jour:"01", mois:"06" } }).then(console.log); // Renvoi une liste des ouvertures prévues entre la date du jour et le 01 juin de l'année en cours si la valeur "mois" est future cette année sinon de l'année prochaine.
+// Renvoie la liste des ouvertures prévues entre la date du jour et 1 mois plus tard
+client.GET.kralamoures().then(console.log);
+ // Renvoie la liste des ouvertures prévues entre la date du jour et le 01 juin 2023 sur le serveur Tylezia
+client.GET.kralamoures({ serveur:"Tylezia", date_fin:"2023-06-01" }).then(console.log);
 
-client.GET.zones().then(console.log); // Renvoi une liste de toutes les zones.
-client.GET.zones("Amakna").then(console.log); // Renvoi les informations sur la zone "Amakna".
+// Renvoie la liste de toutes les zones
+client.GET.zones().then(console.log); 
+// Renvoie les informations sur la zone Amakna
+client.GET.zones("Amakna").then(console.log);
 
-client.GET.souszones().then(console.log); // Renvoi une liste de toutes les sous-zones.
-client.GET.souszones("Aerdala").then(console.log); // Renvoi les informations sur la sous-zones "Aerdala".
+// Renvoie la liste de toutes les sous-zones.
+client.GET.souszones().then(console.log);
+// Renvoie les informations sur la sous-zones Aerdala
+client.GET.souszones("Aerdala").then(console.log);
 
-client.PUT.userMonsters("pseudo", "clé_unique", [
+// La quantité du monstre Arakne sera incrémenter de 5 et passera à l'état proposé
+// La quantité du monstre Larchimaide la Poussée passera à 3
+// La quantité du monstre Bouftou Royal sera décrémenter de 2
+client.PUT.userMonsters("pseudo_utilisateur", "clé_unique_utilisateur", [
 	{ monstre:"Arakne", quantite:"+5", etat:"propose" },
 	{ monstre:"Larchimaide la Poussée", quantite:"3" },
 	{ monstre:"Bouftou Royal", quantite:"-2" },
 ]).then(console.log);
-// La quantité du monstre "Arakne" sera incrémenter de 5 et passera à l'état "proposé".
-// La quantité du monstre "Larchimaide la Poussée" passera à 3.
-// La quantité du monstre "Bouftou Royal" sera décrémenter de 2.
+
+// Tous les monstres de l'utilisateur seront réinitialiser (quantite à 0 et aucun état)
+client.PUT.resestUserMonsters("pseudo_utilisateur", "clé_unique_utilisateur").then(console.log);
 ```
 
 <br>
