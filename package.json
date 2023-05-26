@@ -3,7 +3,7 @@
         "@types/node": "^18.16.14"
     },
     "name": "metamob_xs",
-    "version": "1.8.6",
+    "version": "1.9.0",
     "description": "Twitch api use",
     "main": "main.js",
     "typings": "main.d.ts",
