@@ -286,7 +286,7 @@ var metamob_xs = /** @class */ (function () {
                                                 zone: d.zone,
                                                 souszone: d.souszone,
                                                 quantite: d.quantite,
-                                                etat: d.propose === "1" ? "propose" : "recherche",
+                                                etat: d.propose === "1" ? "propose" : d.recherche === "1" ? "recherche" : "aucun",
                                                 nom_normal: (_a = d.nom_normal) !== null && _a !== void 0 ? _a : ""
                                             });
                                         }) }];

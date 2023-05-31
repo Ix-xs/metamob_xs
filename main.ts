@@ -290,7 +290,7 @@ class metamob_xs {
                                 zone:d.zone,
                                 souszone:d.souszone,
                                 quantite:d.quantite,
-                                etat:d.propose === "1" ? "propose" : "recherche",
+                                etat:d.propose === "1" ? "propose" : d.recherche === "1" ? "recherche" : "aucun",
                                 nom_normal:d.nom_normal ?? ""
                             })) };
                         }
